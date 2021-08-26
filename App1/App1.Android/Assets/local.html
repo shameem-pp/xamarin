@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>local</title>
+</head>
+<body>
+    <h1>Navigated to local html</h1>
+    <div id="main"></div>
+    <script type="text/javascript">
+        //Code for adding new div
+        function insert(content) {
+            let main = document.getElementById("main");
+            var h3 = document.createElement("H3");
+            h3.innerHTML = content;
+            main.appendChild(h3);
+        }
+    </script>
+</body>
+</html>
